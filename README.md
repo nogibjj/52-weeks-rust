@@ -17,6 +17,34 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Episode 7
+
+
+## Episode 6
+
+Fixed random choices and started [ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+
+
+## Episode 5
+
+We fixed it!
+
+Fix this CODE!!!
+
+```rust
+// Looping fun
+// Thank you:  https://rust-lang-nursery.github.io/rust-cookbook/algorithms/randomness.html
+use rand::Rng;
+
+// Broken code fix:  learn to convert to iterator
+fn main() {
+    //let a = [10, 20, 30, 40, 50];
+    let mut rng = rand::thread_rng();
+    for element in rng {
+        println!("the value is: {element}");
+    }
+}
+```
 
 ## Episode 3
 
