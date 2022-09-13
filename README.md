@@ -17,6 +17,11 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Episode 9:  Working with modules and packages
+
+* [Cover modules and packages](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+
+
 ## Episode 8: Figuring how cli tools work with Rust
 
 * The target binary is in target/debug.  But, should I run this for day to day or should I use Cargo?
