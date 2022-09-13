@@ -17,6 +17,18 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Episode 8: Figuring how cli tools work with Rust
+
+* The target binary is in target/debug.  But, should I run this for day to day or should I use Cargo?
+* change the way you pass things in:  https://stackoverflow.com/questions/73364389/i-cant-seem-to-get-my-clap-parser-to-take-in-a-vector-of-string-and-use-flags
+
+
+The way to run a cli via cargo is with these fancy `--` and then don't say name of tool
+```bash
+cargo run -- --name "bob"
+```
+
+
 ## Episode 7
 
 
