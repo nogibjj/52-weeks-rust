@@ -17,9 +17,19 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+
 ## Episode 9:  Working with modules and packages
 
 * [Cover modules and packages](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+
+* Create is smallest container (contain main)
+* Library crates don’t have a main function, and they don’t compile to an executable. 
+* A package is a bundle of one or more crates that provides a set of functionality
+* Cargo.toml file that describes how to build those crates
+
+`cargo new backyard`
+
+TBD:  Still not working...dive into this more next time:  https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html
 
 
 ## Episode 8: Figuring how cli tools work with Rust
