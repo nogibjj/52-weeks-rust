@@ -20,6 +20,7 @@ Trying out Rust
 ## Episode 11: Fix Codespaces Rust
 
 * Environment seems totally fubar, figure out how to make one that isn't.
+* Also figure out how to not checkin debug files
 
 ## Episode 10:  Collections
 
