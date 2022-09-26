@@ -17,6 +17,18 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Episode 11: Fix Codespaces Rust
+
+* Environment seems totally fubar, figure out how to make one that isn't.
+
+## Episode 10:  Collections
+
+* [collections and vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html)
+
+### Note:  Run into an weird issue and tried
+
+`cargo install cargo --force`
+
 
 ## Episode 9:  Working with modules and packages
 
@@ -114,3 +126,8 @@ fn main() {
 ```
 
 * [learn by example guide](https://doc.rust-lang.org/stable/rust-by-example/)
+
+## References
+
+* [Codespaces Examples Rust](https://github.com/codespaces-examples/rust)
+* [updating cargo and rust](https://stackoverflow.com/questions/37928591/is-there-a-command-to-update-cargo-to-the-latest-official-release)
