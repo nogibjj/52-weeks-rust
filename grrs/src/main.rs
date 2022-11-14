@@ -1,8 +1,10 @@
+#![allow(unused)]
+
 use clap::Parser;
 
 /// Search for a pattern in a file and display the lines that contain it.
 #[derive(Parser)]
-#[derive(Debug)]
+#[clap(version = "1.0", author = "Noah Gift.")]
 struct Cli {
     /// The pattern to look for
     pattern: String,
@@ -10,10 +12,20 @@ struct Cli {
     path: std::path::PathBuf,
 }
 
-//invoke the program cargo run -- some-pattern some-file.txt
 fn main() {
     let args = Cli::parse();
-    //print out the arguments passed into the command line
-    println!("CLI Arguments passed in: {:?}", args);
+    println!("Searching for Pattern: {}", args.pattern);
+    let content = std::fs::read_to_string(&args.path).expect("could not read file");
 
+    //print found pattern
+    if content.contains(&args.pattern) {
+        println!("Found Pattern: {}", args.pattern);
+    } else {
+        println!("Pattern Not Found: {}", args.pattern);
+    }
+    for line in content.lines() {
+        if line.contains(&args.pattern) {
+            println!("{}", line);
+        }
+    }
 }

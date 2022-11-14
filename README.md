@@ -17,8 +17,10 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
-## Episode 12:  Finished Setup and Using Vectors
+## Episode 12:  Finished Setup and Using Vectors also try rust-cli book examples
 * Added setup script for configuring codespaces:  https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html
+* Shoutout the [rust-cli book](https://github.com/rust-cli/book)
+`cargo new grrs`
 
 
 
