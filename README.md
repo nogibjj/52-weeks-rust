@@ -17,6 +17,11 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Episode 12:  Finished Setup and Using Vectors
+* Added setup script for configuring codespaces:  https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html
+
+
+
 ## Episode 11: Fix Codespaces Rust
 
 * Environment seems totally fubar, figure out how to make one that isn't.
