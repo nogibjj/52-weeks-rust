@@ -17,11 +17,49 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+## Ep 14: Build a rust cli that calls out to the web somehow
+
+
+## Ep 13: Use popular rust crate + cli
+
+Goal:  Build a cli clap tool that generates random numbers in a range
+
+* [clap docs](https://docs.rs/clap/latest/clap/)
+
+To run it: `cargo run -- -x 1 -y 10`
+
+To run help:
+
+`cargo run -- --help`
+The output should be:
+```bash
+Generates a Random Number between an X and Y Range
+
+Usage: randocli [OPTIONS]
+
+Options:
+  -x, --x <X>    The lower bound of the range [default: 0]
+  -y, --y <Y>    The upper bound of the range [default: 100]
+  -h, --help     Print help information
+  -V, --version  Print version information
+```
+
+
 ## Episode 12:  Finished Setup and Using Vectors also try rust-cli book examples
 * Added setup script for configuring codespaces:  https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html
 * Shoutout the [rust-cli book](https://github.com/rust-cli/book)
 `cargo new grrs`
 
+To run this tool do the following and you will see this output:
+`cargo run -- fancy foo.txt `
+
+```bash
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/grrs fancy foo.txt`
+Searching for Pattern: fancy
+Found Pattern: fancy
+fancy
+```
 
 
 ## Episode 11: Fix Codespaces Rust
