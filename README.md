@@ -17,7 +17,14 @@ Trying out Rust
 * Do you have it? `cargo --version`?
 * `cargo new hello_cargo && cd hello_cargo`
 
+
+## Ep 15:  finish the webcli tool (almost done)
+
+* make the function in Rust accept the options from the parser.
+
 ## Ep 14: Build a rust cli that calls out to the web somehow
+
+* Using this lib:  https://crates.io/crates/wikipedia
 
 
 ## Ep 13: Use popular rust crate + cli
